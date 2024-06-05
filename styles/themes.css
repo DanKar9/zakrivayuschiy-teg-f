@@ -10,9 +10,8 @@
     --font-title-weith:800;
     color-scheme: dark;
     --background-gradient-right:
-  180deg, #000 2px ,transparent;
-  --background-gradient-bottom:90deg, #000 2px ,transparent;
-  --background-gradient-top-bottom:90deg,#007f0c 2px ,#004306 ;
+  180deg, #000 2px 4px ,transparent 4px 6px;
+  --background-gradient-bottom:90deg,#007f0c 2px 4px ,#004306 4px 6px ;
   --btn-color:rgb(0, 204, 20);
 }
 
@@ -22,9 +21,8 @@
   --font-title-weith:700;
   --font-text-weith:400;
   --background-color: rgb(255, 255, 255);
-  --background-gradient-right: 180deg, #d3d3d3 2px ,transparent 2px;
-  --background-gradient-bottom:90deg, #d3d3d3 2px ,transparent 2px;
-  --background-gradient-top-bottom:90deg,#e7e7e7 2px ,#1a1a1a 2px;
+  --background-gradient-right: 180deg, #d3d3d3 2px 4px, transparent,transparent 4px 6px;
+  --background-gradient-bottom:90deg, #e7e7e7 2px 4px,  #1a1a1a 4px 6px;
   --accent-color:#000000; 
   --spark-color:#FF0000;
   --btn-color:rgb(255, 255, 255);
@@ -44,9 +42,8 @@
     --font-title-weith:800;
     color-scheme: dark;
     --background-gradient-right:
-  180deg, #000 2px ,transparent;
-  --background-gradient-bottom:90deg, #000 2px ,transparent;
-  --background-gradient-top-bottom:90deg,#007f0c 2px ,#004306 ;
+  180deg, #000 2px 4px ,transparent 4px 6px;
+  --background-gradient-bottom:90deg,#007f0c 2px 4px ,#004306 4px 6px ;
   --btn-color:rgb(0, 204, 20);
   }
 }
@@ -59,9 +56,8 @@
     --font-title-weith:700;
     --font-text-weith:400;
     --background-color: rgb(255, 255, 255);
-    --background-gradient-right: 180deg, #d3d3d3 2px ,transparent 2px;
-    --background-gradient-bottom:90deg, #d3d3d3 2px ,transparent 2px;
-    --background-gradient-top-bottom:90deg,#e7e7e7 2px ,#1a1a1a 2px;
+    --background-gradient-right: 180deg, #d3d3d3 2px 4px, transparent,transparent 4px 6px;
+    --background-gradient-bottom:90deg, #e7e7e7 2px 4px,  #1a1a1a 4px 6px;
     --accent-color:#000000; 
     --spark-color:#FF0000;
     --btn-color:rgb(255, 255, 255);
