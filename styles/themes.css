@@ -4,7 +4,7 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
-:root.theme-dark{
+:root.theme-dark {
     --background-color: #000000;
     --accent-color:rgb(0, 204, 20);
     --font-title-weith:800;
@@ -15,25 +15,21 @@
   --btn-color:rgb(0, 204, 20);
 }
 
-:root.theme-light{
+:root.theme-light {
   --font-main: 'Inter';
   --font-accept: 'PressStart2P';
   --font-title-weith:700;
   --font-text-weith:400;
   --background-color: rgb(255, 255, 255);
   --background-gradient-right: 180deg, #d3d3d3 2px 4px, transparent,transparent 4px 6px;
-  --background-gradient-bottom:90deg, #e7e7e7 2px 4px,  #1a1a1a 4px 6px;
+  --background-gradient-bottom:90deg, #e7e7e7 2px 4px,#1a1a1a 4px 6px;
   --accent-color:#000000; 
   --spark-color:#FF0000;
   --btn-color:rgb(255, 255, 255);
     
 }
 
-/* .theme-light .page{
-    background-image:linear-gradient(var(--background-gradient-right)),
-  linear-gradient(var(--background-gradient-bottom));
 
-} */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -57,7 +53,7 @@
     --font-text-weith:400;
     --background-color: rgb(255, 255, 255);
     --background-gradient-right: 180deg, #d3d3d3 2px 4px, transparent,transparent 4px 6px;
-    --background-gradient-bottom:90deg, #e7e7e7 2px 4px,  #1a1a1a 4px 6px;
+    --background-gradient-bottom:90deg, #e7e7e7 2px 4px,#1a1a1a 4px 6px;
     --accent-color:#000000; 
     --spark-color:#FF0000;
     --btn-color:rgb(255, 255, 255);

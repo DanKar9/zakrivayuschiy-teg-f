@@ -1,13 +1,13 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
-:root{
+:root {
     --font-main: 'Inter';
     --font-accept: 'PressStart2P';
     --font-title-weith:700;
     --font-text-weith:400;
     --background-color: rgb(255, 255, 255);
     --background-gradient-right: 180deg, #d3d3d3 2px 4px, transparent,transparent 4px 6px;
-    --background-gradient-bottom:90deg, #e7e7e7 2px 4px,  #1a1a1a 4px 6px;
+    --background-gradient-bottom:90deg, #e7e7e7 2px 4px,#1a1a1a 4px 6px;
     --accent-color:#000000; 
     --spark-color:#FF0000;
     --btn-color:rgb(255, 255, 255);

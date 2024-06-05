@@ -192,6 +192,12 @@
   background-position: center;
 }
 
+.card__image{
+    object-position: center;
+    object-fit: cover;
+    max-width: 693px;
+}
+
 .card__img1 {
   filter: blur(0.4rem);
 }
