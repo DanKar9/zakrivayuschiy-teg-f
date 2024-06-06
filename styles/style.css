@@ -14,6 +14,12 @@
 
 */
 
+@supports (font-variation-settings: normal) {
+  .page {
+    font-family: var(--font-main);
+}
+}
+
 .page {
 
   margin: 0 clamp(1rem, -0.0563rem + 4.5070vw, 4rem);
@@ -192,50 +198,54 @@
   background-position: center;
 }
 
-.card__image{
+.card__image {
     object-position: center;
     object-fit: cover;
     max-width: 693px;
 }
 
-.card__img1 {
+.card__img1 img {
   filter: blur(0.4rem);
 }
 
-.card__img2 {
+.card__img2 img {
   filter: brightness(50%);
 }
 
-.card__img3 {
+.card__img3 img {
   filter: contrast(48%);
 }
 
-.card__img4 {
+.card__img4 img {
   filter: invert(1) brightness(200%) saturate(60%) hue-rotate(90deg);
 }
 
-.card__img5 {
+.card__img5 img {
   filter: grayscale(0.4);
 }
 
-.card__img6 {
+.card__img6 img {
   filter: saturate(121%);
 }
 
-.card__img7 {
+.card__img7 img {
   filter: hue-rotate(-120deg);
 }
 
-.card__img8 {
+.card__img8 img {
   filter: sepia(40%);
 }
 
 
 .card__text {
   font-size: 18px;
-  font-weight: 400;
+  font-variation-settings: "wght" 400;
   line-height: 21px;
   padding: 24px 25px 2px;
+}
+
+.card__text-pd{
+  padding-top: 27px;
 }
 
 
@@ -321,24 +331,39 @@
   padding-top: 7px;
 }
 
+
+
 .button__text-save {
+  margin-left: 8px;
   border: none;
+  padding-top: 3px;
 }
 
 .save {
   display: flex;
   justify-content: center;
+ margin-bottom: 75px;
 }
 
 .save button {
   background-color: var(--background-color);
-  padding: 15px 20px 15px 20px;
+  padding: 13px 20px 15px 20px;
   display: flex;
   border: 2px solid var(--accent-color);
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
+
+.save__svg {
+  z-index: 2;
+  position: relative;
+  width: 21px;
+  height: 21px;
+  mix-blend-mode: difference;
+  color: var(--background-color);
+}
+
 
 .save button::before {
   display: block;
@@ -357,14 +382,6 @@
   transform: translateX(0);
 }
 
-.save__svg {
-  z-index: 2;
-  position: relative;
-  max-width: 30px;
-  max-height: 25px;
-  mix-blend-mode: difference;
-  color: var(--background-color);
-}
 
 .save__svg-mobile {
   display: none;
@@ -464,8 +481,8 @@ dialog[open] .dialog__info {
 }
 
 .dialog__save-svg {
-  max-width: 40px;
-  max-height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 dialog button {
@@ -561,6 +578,10 @@ dialog::backdrop {
       max-height: 371px;
   }
 
+  .save{
+    margin-bottom: 60px;
+  }
+
   .save button {
       display: flex;
       flex-direction: column;
@@ -580,6 +601,12 @@ dialog::backdrop {
       max-height: 28px;
       mix-blend-mode: difference;
       color: var(--background-color);
+  }
+
+  .button__text-save {
+    border: none;
+    padding-top: 10px;
+    margin-left: 0;
   }
 
   dialog[open] {
