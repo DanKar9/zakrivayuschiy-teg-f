@@ -2,679 +2,415 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="light dark">
-    <title>Закрывающий тег</title>
-    <link type="image/x-icon" href="./images/favicon.svg" rel="shortcut icon">
-    <link type="Image/x-icon" href="./images/favicon.svg" rel="icon">
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/animations.css" />
-    <link rel="stylesheet" href="./styles/themes.css" />
-    <script src="./scripts/set-theme.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark">
+  <title>Закрывающий тег</title>
+  <link type="image/x-icon" href="./images/favicon.svg" rel="shortcut icon">
+  <link rel="apple-touch-icon-precomposed" href="./images/favicon.svg">
+  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./styles/variables.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/animations.css" />
+  <link rel="stylesheet" href="./styles/themes.css" />
+  <script src="./scripts/set-theme.js"></script>
 </head>
 
 <body class="page">
-    <header class="header">
-        <div class="header__inner">
-            <h1 class="header__title">&lt;/HTML&gt;</h1>
-            <h2 class="header__subTitle">закрывающий тег</h2>
-
-            <nav class="theme-menu header__theme-menu">
-                <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
-                <ul class="theme-menu__list">
-                    <li class="theme-menu__item">
-                        <button type="button" data-theme="dark" class="theme-menu__button">
-                            Темно
-                        </button>
-                    </li>
-                    <li class="theme-menu__item">
-                        <button type="button" data-theme="auto" disabled class="theme-menu__button">
-                            Авто
-                        </button>
-                    </li>
-                    <li class="theme-menu__item">
-                        <button type="button" data-theme="light" class="theme-menu__button">
-                            Светло
-                        </button>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <ul class="main__inner">
-            <li class="card">
-                <div class="container">
-
-                    <div class="card__logo card__logo-mob">&lt;/HTML&gt;</div>
-                    <h3 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h3>
-                    <div class="card__img card__img1">
-                        <img class="card__image" src="./images/image.png" alt="image">
-                    </div>
-                    <p class="card__text">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
-                    <p class="card__text">Место для ваших воспоминаний о начале обучения.</p>
-
-
-                    <div class="card__btn">
-                        <button class="card__icon-button">
-                            <svg class="like-icon" width="41" height="36.000000" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <desc>
-                                    Created with Pixso.
-                                </desc>
-                                <rect  width="41" height="41" fill="#FFFFFF" fill-opacity="0" />
-                                <g class="heart">
-
-
-                                    <path class="contour"  d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="main-body"  d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="core"  d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-                                </g>
-
-                                <path class="sparks"  d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                            </svg>
-
-
-                        </button>
-                        <div class="card__like-button">
-                            <span class="button__text">Like</span>
-                        </div>
-
-                    </div>
-
-                </div>
-            </li>
-            <!--card1-->
-
-            <li class="card card__extended">
-                <div class="container">
-
-                    <div class="card__logo">&lt;/HTML&gt;</div>
-                    <h3 class="card__title">1 спринт: Я — чистый лист</h3>
-                    <div class="card__img card__img2">
-                        <img class="card__image" src="./images/image2.png" alt="image">
-                    </div>
-                    <p class="card__text card__text-pd">На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички. Один из них — страх перед чистым листом. Это, конечно же, намного сложнее, чем боязнь куска бумаги. Часто за этим ощущением скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?</p>
-                    <p class="card__text"> Место для ваших воспоминаний о начале первого спринта.</p>
-
-
-                    <div class="card__btn">
-                        <button class="card__icon-button">
-                            <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <desc>
-                                    Created with Pixso.
-                                </desc>
-                                <rect  width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
-                                <g class="heart">
-                                    <path class="contour"  d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="main-body"  d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="core" d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-                                </g>
-                                <path class="sparks"  d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                            </svg>
-
-                        </button>
-                        <div class="card__like-button">
-                            <span class="button__text">Like</span>
-                        </div>
-                    </div>
-
-                </div>
-            </li>
-            <!--card2-->
-
-            <li class="card">
-                <div class="container">
-
-                    <div class="card__logo">&lt;CSS&gt;</div>
-                    <h3 class="card__title">1 спринт: А если не получится?</h3>
-                    <div class="card__img card__img3">
-                        <img class="card__image" src="./images/image3.png" alt="image">
-                    </div>
-                    <p class="card__text">Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала. Или вы, наоборот, могли вдохновиться успехами и поверить в себя. </p>
-                    <p class="card__text">Место для ваших воспоминаний об окончании первого спринта.</p>
-
-
-                    <div class="card__btn">
-                        <button class="card__icon-button">
-                            <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <desc>
-                                    Created with Pixso.
-                                </desc>
-                                <rect  width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
-                                <g class="heart">
-                                    <path class="contour"  d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="main-body"  d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="core"  d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-                                </g>
-                                <path class="sparks"  d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                            </svg>
-
-                        </button>
-                        <div class="card__like-button">
-                            <span class="button__text">Like</span>
-                        </div>
-                    </div>
-
-                </div>
-            </li>
-            <!--card3-->
-
-            <li class="card">
-                <div class="container">
-
-                    <div class="card__logo">&lt;desigions&gt;</div>
-                    <h3 class="card__title">2 спринт: Погоня за идеалом</h3>
-                    <div class="card__img card__img4">
-                        <img class="card__image" src="./images/image4.png" alt="image">
-                    </div>
-                    <p class="card__text">На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди. Вы могли попытаться погнаться за идеалом и понять, что он недостижим. А, может, вы вовсе и не подвержены перфекционизму и вместо того, чтобы сделать идеально, старались просто сделать. </p>
-                    <p class="card__text"> Место для ваших воспоминаний о начале второго спринта.</p>
-
-
-                    <div class="card__btn">
-                        <button class="card__icon-button">
-                            <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <desc>
-                                    Created with Pixso.
-                                </desc>
-                                <rect  width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
-                                <g class="heart">
-                                    <path class="contour"  d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="main-body"  d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="core"  d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-                                </g>
-                                <path class="sparks"  d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                            </svg>
-
-                        </button>
-                        <div class="card__like-button">
-                            <span class="button__text">Like</span>
-                        </div>
-                    </div>
-
-                </div>
-            </li>
-            <!--card4-->
-
-            <li class="card">
-                <div class="container">
-
-                    <div class="card__logo">care</div>
-                    <h3 class="card__title">2 спринт: О тех, кто рядом</h3>
-                    <div class="card__img card__img5">
-                        <img class="card__image" src="./images/image5.png" alt="image">
-                    </div>
-                    <p class="card__text card__text-wth">Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни против целого мира). Вас окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться, если очередной макет просто так не поддавался. Осваивать что-то новое легче, когда рядом есть единомышленники, не правда ли? </p>
-                    <p class="card__text">Место для ваших воспоминаний об окончании второго спринта.</p>
-
-
-                    <div class="card__btn">
-                        <button class="card__icon-button">
-                            <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <desc>
-                                    Created with Pixso.
-                                </desc>
-                                <rect  width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
-                                <g class="heart">
-                                    <path class="contour"  d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="main-body"  d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="core"  d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-                                </g>
-                                <path class="sparks"  d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                            </svg>
-
-                        </button>
-                        <div class="card__like-button">
-                            <span class="button__text">Like</span>
-                        </div>
-                    </div>
-
-                </div>
-            </li>
-            <!--card5-->
-
-            <li class="card">
-                <div class="container">
-
-                    <div class="card__logo">&lt;support&gt;</div>
-                    <h3 class="card__title">3 спринт: Обходные стратегии</h3>
-                    <div class="card__img card__img6">
-                        <img class="card__image" src="./images/image6.png" alt="image">
-                    </div>
-                    <p class="card__text card__text-width">На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения просто иссякли. Значит, пришло время посмотреть на задачу под другим углом. </p>
-                    <p class="card__text">Место для ваших воспоминаний о начале третьего спринта.</p>
-
-
-                    <div class="card__btn">
-                        <button class="card__icon-button">
-                            <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <desc>
-                                    Created with Pixso.
-                                </desc>
-                                <rect  width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
-                                <g class="heart">
-                                    <path class="contour"  d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="main-body"  d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="core"  d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-                                </g>
-                                <path class="sparks"  d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                            </svg>
-
-                        </button>
-                        <div class="card__like-button">
-                            <span class="button__text">Like</span>
-                        </div>
-                    </div>
-
-                </div>
-            </li>
-            <!--card6-->
-
-            <li class="card card__extended">
-                <div class="container">
-
-                    <div class="card__logo">&lt;lifes-style: none;&gt;</div>
-                    <h3 class="card__title">3 спринт: Когда опускаются руки</h3>
-                    <div class="card__img card__img7">
-                        <img class="card__image" src="./images/image7.png" alt="image">
-                    </div>
-                    <p class="card__text">Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора сдавать, и задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. В такие моменты очень нужна концентрация. Вспомните, откуда вы её черпали. </p>
-                    <p class="card__text">Место для ваших воспоминаний об окончании третьего спринта.</p>
-
-
-                    <div class="card__btn">
-                        <button class="card__icon-button">
-                            <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <desc>
-                                    Created with Pixso.
-                                </desc>
-                                <rect  width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
-                                <g class="heart">
-                                    <path class="contour"  d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="main-body"  d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="core"  d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-                                </g>
-                                <path class="sparks"  d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                            </svg>
-
-                        </button>
-                        <div class="card__like-button">
-                            <span class="button__text">Like</span>
-                        </div>
-                    </div>
-
-                </div>
-            </li>
-            <!--card7-->
-
-            <li class="card card-height">
-                <div class="container">
-
-                    <div class="card__logo">&lt;experience&gt;</div>
-                    <h3 class="card__title">«Сейчас я здесь»</h3>
-                    <div class="card__img card__img8">
-                        <img class="card__image" src="./images/image8.png" alt="image">
-                    </div>
-                    <p class="card__text card__text-width">Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс познания. Ведь часто путь — и есть результат.</p>
-                    <p class="card__text">
-                        Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.
-                    </p>
-
-                    <div class="card__btn">
-                        <button class="card__icon-button">
-                            <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <desc>
-                                    Created with Pixso.
-                                </desc>
-                                <rect  width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
-                                <g class="heart">
-                                    <path class="contour"  d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="main-body"  d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                                    <path class="core"  d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
-                                </g>
-                                <path class="sparks"  d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
-
-                            </svg>
-
-                        </button>
-                        <div class="card__like-button">
-                            <span class="button__text">Like</span>
-                        </div>
-                    </div>
-
-                </div>
-            </li>
-            <!--card8-->
+  <header class="header">
+    <div class="header__inner">
+
+      <a class="header__title">&lt;/HTML&gt;</a>
+      <h1 class="header__subtitle">закрывающий тег</h1>
+
+      <nav class="theme-menu header__theme-menu">
+        <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
+        <ul class="theme-menu__list">
+          <li class="theme-menu__item">
+            <button type="button" data-theme="dark" class="theme-menu__button">
+              Темно
+            </button>
+          </li>
+          <li class="theme-menu__item">
+            <button type="button" data-theme="auto" disabled class="theme-menu__button">
+              Авто
+            </button>
+          </li>
+          <li class="theme-menu__item">
+            <button type="button" data-theme="light" class="theme-menu__button">
+              Светло
+            </button>
+          </li>
         </ul>
+      </nav>
+    </div>
+  </header>
 
+  <main>
+    <ul class="main__inner">
+      <li class="card">
+        <div class="container">
+          <div class="card__title-text">
+            <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+          </div>
+          <div class="card__img">
+            <img class="card__image filter-blur" src="./images/image.png" alt="Картинка с подготовкой к работе">
+            <span class="card__logo card__logo-mg">&lt;/HTML&gt;</span>
+          </div>
+          <p class="card__text">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
+          <p class="card__text">Место для ваших воспоминаний о начале обучения.</p>
 
+          <div class="card__btn">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="41" height="36.000000" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                  Created with Pixso.
+                </desc>
+                <rect width="41" height="41" fill="#FFFFFF" fill-opacity="0" />
+                <g class="heart">
 
-        <div class="save">
-            <button onclick="window.dialog.showModal()" aria-controls="dialog">
-                  <svg width="21" height="21" viewBox="0 0 21 21"  class="save__svg">
-                    <use  href="#floppy"></use>
-                </svg>
-               
-                <svg viewBox="0 0 29 28"  class="save__svg-mobile">
-                    <use href="#save-mob"></use>
-                </svg>
+                  <path class="contour" d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
 
-                <span class="button__text button__text-save">Сохранить на память</span>
+                  <path class="main-body" d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="core" d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+                </g>
+
+                <path class="sparks" d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+              </svg>
 
             </button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+
+          </div>
+
         </div>
+      </li>
+      <!--card1-->
 
+      <li class="card card__extended">
+        <div class="container">
 
+          <div class="card__title-text">
+            <h2 class="card__title">1 спринт: Я — чистый лист</h2>
+          </div>
 
-        <dialog aria-label="dialog" id="dialog" class="dialog">
-            <div class="dialog__inner">
-                <div class="dialog__info">
-                    <svg viewBox="0 0 39 39" class="save__svg dialog__save-svg">
-                        <use href="#save-2"></use>
-                    </svg>
-                    <h2 class="dialog__text">Вставьте дискету, чтобы продолжить</h2>
-                </div>
-                <button type="button" onclick="window.dialog.close()">
-                    <span class="button__text">OK</span>
-                </button>
-            </div>
-        </dialog>
-    </main>
-    
-    <script src="./scripts/like.js"></script>
+          <div class="card__img">
+            <img class="card__image filter-brightness" src="./images/image2.png" alt="Картинка 1 спринта">
+            <span class="card__logo">&lt;/HTML&gt;</span>
+          </div>
+          <p class="card__text card__text-pd">На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички. Один из них — страх перед чистым листом. Это, конечно же, намного сложнее, чем боязнь куска бумаги. Часто за этим ощущением скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?</p>
+          <p class="card__text"> Место для ваших воспоминаний о начале первого спринта.</p>
+
+          <div class="card__btn">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                  Created with Pixso.
+                </desc>
+                <rect width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
+                <g class="heart">
+                  <path class="contour" d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="main-body" d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="core" d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+                </g>
+                <path class="sparks" d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+              </svg>
+
+            </button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+
+        </div>
+      </li>
+      <!--card2-->
+
+      <li class="card">
+        <div class="container">
+
+          <div class="card__title-text">
+            <h2 class="card__title">1 спринт: А если не получится?</h2>
+          </div>
+
+          <div class="card__img">
+            <img class="card__image filter-contrast" src="./images/image3.png" alt="Картинка 1 спринта">
+            <span class="card__logo">&lt;CSS&gt;</span>
+          </div>
+          <p class="card__text">Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала. Или вы, наоборот, могли вдохновиться успехами и поверить в себя. </p>
+          <p class="card__text">Место для ваших воспоминаний об окончании первого спринта.</p>
+
+          <div class="card__btn">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                  Created with Pixso.
+                </desc>
+                <rect width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
+                <g class="heart">
+                  <path class="contour" d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="main-body" d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="core" d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+                </g>
+                <path class="sparks" d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+              </svg>
+
+            </button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+
+        </div>
+      </li>
+      <!--card3-->
+
+      <li class="card">
+        <div class="container">
+
+          <div class="card__title-text">
+            <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
+          </div>
+          <div class="card__img">
+            <img class="card__image filter-many" src="./images/image4.png" alt="Картинка 2 спринта">
+            <span class="card__logo">&lt;desigions&gt;</span>
+          </div>
+          <p class="card__text">На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди. Вы могли попытаться погнаться за идеалом и понять, что он недостижим. А, может, вы вовсе и не подвержены перфекционизму и вместо того, чтобы сделать идеально, старались просто сделать. </p>
+          <p class="card__text"> Место для ваших воспоминаний о начале второго спринта.</p>
+
+          <div class="card__btn">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                  Created with Pixso.
+                </desc>
+                <rect width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
+                <g class="heart">
+                  <path class="contour" d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="main-body" d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="core" d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+                </g>
+                <path class="sparks" d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+              </svg>
+
+            </button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+
+        </div>
+      </li>
+      <!--card4-->
+
+      <li class="card">
+        <div class="container">
+
+          <div class="card__title-text">
+            <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
+          </div>
+          <div class="card__img ">
+            <img class="card__image filter-grayscale" src="./images/image5.png" alt="Картинка 2 спринта">
+            <span class="card__logo">care</span>
+          </div>
+          <p class="card__text card__text-wth">Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни против целого мира). Вас окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться, если очередной макет просто так не поддавался. Осваивать что-то новое легче, когда рядом есть единомышленники, не правда ли? </p>
+          <p class="card__text">Место для ваших воспоминаний об окончании второго спринта.</p>
+
+          <div class="card__btn">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                  Created with Pixso.
+                </desc>
+                <rect width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
+                <g class="heart">
+                  <path class="contour" d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="main-body" d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="core" d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+                </g>
+                <path class="sparks" d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+              </svg>
+
+            </button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+
+        </div>
+      </li>
+      <!--card5-->
+
+      <li class="card">
+        <div class="container">
+
+          <div class="card__title-text">
+            <h2 class="card__title">3 спринт: Обходные стратегии</h2>
+          </div>
+          <div class="card__img">
+            <img class="card__image filter-saturate" src="./images/image6.png" alt="Картинка 3 спринта">
+            <span class="card__logo">&lt;support&gt;</span>
+          </div>
+          <p class="card__text card__text-width">На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения просто иссякли. Значит, пришло время посмотреть на задачу под другим углом. </p>
+          <p class="card__text">Место для ваших воспоминаний о начале третьего спринта.</p>
+
+          <div class="card__btn">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                  Created with Pixso.
+                </desc>
+                <rect width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
+                <g class="heart">
+                  <path class="contour" d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="main-body" d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="core" d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+                </g>
+                <path class="sparks" d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+              </svg>
+
+            </button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+
+        </div>
+      </li>
+      <!--card6-->
+
+      <li class="card card__extended">
+        <div class="container">
+
+          <div class="card__title-text">
+            <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
+          </div>
+          <div class="card__img">
+            <img class="card__image filter-hue-rotate" src="./images/image7.png" alt="Картинка 3 спринта">
+            <span class="card__logo">&lt;lifes-style: none;&gt;</span>
+          </div>
+          <p class="card__text">Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора сдавать, и задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. В такие моменты очень нужна концентрация. Вспомните, откуда вы её черпали. </p>
+          <p class="card__text">Место для ваших воспоминаний об окончании третьего спринта.</p>
+
+          <div class="card__btn">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                  Created with Pixso.
+                </desc>
+                <rect width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
+                <g class="heart">
+                  <path class="contour" d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="main-body" d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="core" d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+                </g>
+                <path class="sparks" d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+              </svg>
+
+            </button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+
+        </div>
+      </li>
+      <!--card7-->
+
+      <li class="card card-height">
+        <div class="container">
+
+          <div class="card__title-text">
+            <h2 class="card__title">«Сейчас я здесь»</h2>
+          </div>
+          <div class="card__img">
+            <img class="card__image filter-sepia" src="./images/image8.png" alt="Картинка настоящего">
+            <span class="card__logo">&lt;experience&gt;</span>
+          </div>
+          <p class="card__text card__text-width">Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс познания. Ведь часто путь — и есть результат.</p>
+          <p class="card__text">
+            Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.
+          </p>
+
+          <div class="card__btn">
+            <button type="button" class="card__icon-button">
+              <svg class="like-icon" width="41" height="41" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                  Created with Pixso.
+                </desc>
+                <rect width="41" height="36.000000" fill="#FFFFFF" fill-opacity="0" />
+                <g class="heart">
+                  <path class="contour" d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z" fill="var(--accent-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="main-body" d="M12 9L9 9L9 12L12 12L12 9ZM15 12L12 12L12 15L15 15L15 12ZM18 9L15 9L15 12L18 12L18 9ZM12 15L9 15L9 18L12 18L12 15ZM15 15L12 15L12 18L15 18L15 15ZM15 18L12 18L12 21L15 21L15 18ZM18 12L15 12L15 15L18 15L18 12ZM18 21L15 21L15 24L18 24L18 21ZM18 18L15 18L15 21L18 21L18 18ZM27 9L30 9L30 12L27 12L27 9ZM24 9L27 9L27 12L24 12L24 9ZM27 12L30 12L30 15L27 15L27 12ZM24 12L27 12L27 15L24 15L24 12ZM21 9L24 9L24 12L21 12L21 9ZM27 15L30 15L30 18L27 18L27 15ZM24 15L27 15L27 18L24 18L24 15ZM24 18L27 18L27 21L24 21L24 18ZM21 12L24 12L24 15L21 15L21 12ZM21 21L24 21L24 24L21 24L21 21ZM21 18L24 18L24 21L21 21L21 18ZM21 21L18 21L18 24L21 24L21 21ZM21 24L18 24L18 27L21 27L21 24Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+
+                  <path class="core" d="M18 15L15 15L15 18L18 18L18 15ZM21 15L24 15L24 18L21 18L21 15ZM21 15L18 15L18 18L21 18L21 15ZM21 12L18 12L18 15L21 15L21 12ZM21 18L18 18L18 21L21 21L21 18Z" fill="transparent" fill-opacity="1.000000" fill-rule="nonzero" />
+                </g>
+                <path class="sparks" d="M36 13L39 13L39 16L36 16L36 13ZM27 27L30 27L30 30L27 30L27 27ZM18 33L21 33L21 36L18 36L18 33ZM9 27L12 27L12 30L9 30L9 27ZM24 0L27 0L27 3L24 3L24 0ZM33 3L36 3L36 6L33 6L33 3ZM3 3L6 3L6 6L3 6L3 3ZM12 0L15 0L15 3L12 3L12 0ZM0 13L3 13L3 16L0 16L0 13Z" fill="var(--spark-color)" fill-opacity="1.000000" fill-rule="nonzero" />
+
+              </svg>
+
+            </button>
+            <button type="button" class="card__like-button">
+              <span class="button__text">Like</span>
+            </button>
+          </div>
+
+        </div>
+      </li>
+      <!--card8-->
+    </ul>
+
+    <div class="save">
+      <button type="button" onclick="window.dialog.showModal()" aria-controls="dialog">
+        <svg width="21" height="21" viewBox="0 0 21 21" class="save__svg">
+          <use href="./svg/floppy.svg#floppy"></use>
+        </svg>
+
+        <span class="button__text button__text-save">Сохранить на память</span>
+
+      </button>
+    </div>
+
+    <dialog aria-label="dialog" id="dialog" class="dialog">
+      <div class="dialog__inner">
+        <div class="dialog__info">
+          <svg viewBox="0 0 39 39" class="save__svg dialog__save-svg">
+            <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <h2 class="dialog__text">Вставьте дискету, чтобы продолжить</h2>
+        </div>
+        <button type="button" onclick="window.dialog.close()">
+          <span class="button__text">OK</span>
+        </button>
+      </div>
+    </dialog>
+  </main>
+
+  <script src="./scripts/like.js"></script>
 </body>
 
-
-
 </html>
-
-
-
-
-
-<svg width="21" height="21" viewBox="0 0 21 21" fill="var(--btn-color)" xmlns="http://www.w3.org/2000/svg">
-    <symbol id='floppy' fill="var(--btn-color)">
-    <rect width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="1.61523" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="3.23096" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="4.84619" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="6.46143" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="8.07715" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="9.69238" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="11.3076" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="12.9229" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="14.5386" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="16.1538" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="17.769" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect y="19.3848" width="1.61538" height="1.61538" fill="var(--btn-color)"/>
-    <rect x="17.7693" width="1.61538" height="1.61538" transform="rotate(90 17.7693 0)" fill="var(--btn-color)"/>
-    <rect x="16.1538" width="1.61538" height="1.61538" transform="rotate(90 16.1538 0)" fill="var(--btn-color)"/>
-    <rect x="14.5385" width="1.61538" height="1.61538" transform="rotate(90 14.5385 0)" fill="var(--btn-color)"/>
-    <rect x="12.9231" width="1.61538" height="1.61538" transform="rotate(90 12.9231 0)" fill="var(--btn-color)"/>
-    <rect x="11.3077" width="1.61538" height="1.61538" transform="rotate(90 11.3077 0)" fill="var(--btn-color)"/>
-    <rect x="9.69226" width="1.61538" height="1.61538" transform="rotate(90 9.69226 0)" fill="var(--btn-color)"/>
-    <rect x="8.0769" width="1.61538" height="1.61538" transform="rotate(90 8.0769 0)" fill="var(--btn-color)"/>
-    <rect x="6.46155" width="1.61538" height="1.61538" transform="rotate(90 6.46155 0)" fill="var(--btn-color)"/>
-    <rect x="4.84619" width="1.61538" height="1.61538" transform="rotate(90 4.84619 0)" fill="var(--btn-color)"/>
-    <rect x="3.23071" width="1.61538" height="1.61538" transform="rotate(90 3.23071 0)" fill="var(--btn-color)"/>
-    <rect x="19.3846" y="1.61523" width="1.61538" height="1.61538" transform="rotate(90 19.3846 1.61523)" fill="var(--btn-color)"/>
-    <rect x="4.84619" y="3.23096" width="1.61538" height="1.61538" transform="rotate(90 4.84619 3.23096)" fill="var(--btn-color)"/>
-    <rect x="4.84619" y="1.61523" width="1.61538" height="1.61538" transform="rotate(90 4.84619 1.61523)" fill="var(--btn-color)"/>
-    <rect x="4.84619" y="4.84619" width="1.61538" height="1.61538" transform="rotate(90 4.84619 4.84619)" fill="var(--btn-color)"/>
-    <rect x="16.1538" y="3.23096" width="1.61538" height="1.61538" transform="rotate(90 16.1538 3.23096)" fill="var(--btn-color)"/>
-    <rect x="16.1538" y="1.61523" width="1.61538" height="1.61538" transform="rotate(90 16.1538 1.61523)" fill="var(--btn-color)"/>
-    <rect x="16.1538" y="4.84619" width="1.61538" height="1.61538" transform="rotate(90 16.1538 4.84619)" fill="var(--btn-color)"/>
-    <rect x="12.9231" y="3.23096" width="1.61538" height="1.61538" transform="rotate(90 12.9231 3.23096)" fill="var(--btn-color)"/>
-    <rect x="12.9231" y="1.61523" width="1.61538" height="1.61538" transform="rotate(90 12.9231 1.61523)" fill="var(--btn-color)"/>
-    <rect x="12.9231" y="4.84619" width="1.61538" height="1.61538" transform="rotate(90 12.9231 4.84619)" fill="var(--btn-color)"/>
-    <rect x="16.1538" y="6.46143" width="1.61538" height="1.61538" transform="rotate(90 16.1538 6.46143)" fill="var(--btn-color)"/>
-    <rect x="14.5385" y="6.46143" width="1.61538" height="1.61538" transform="rotate(90 14.5385 6.46143)" fill="var(--btn-color)"/>
-    <rect x="12.9231" y="6.46143" width="1.61538" height="1.61538" transform="rotate(90 12.9231 6.46143)" fill="var(--btn-color)"/>
-    <rect x="11.3077" y="6.46143" width="1.61538" height="1.61538" transform="rotate(90 11.3077 6.46143)" fill="var(--btn-color)"/>
-    <rect x="9.69226" y="6.46143" width="1.61538" height="1.61538" transform="rotate(90 9.69226 6.46143)" fill="var(--btn-color)"/>
-    <rect x="8.0769" y="6.46143" width="1.61538" height="1.61538" transform="rotate(90 8.0769 6.46143)" fill="var(--btn-color)"/>
-    <rect x="6.46155" y="6.46143" width="1.61538" height="1.61538" transform="rotate(90 6.46155 6.46143)" fill="var(--btn-color)"/>
-    <rect x="4.84619" y="6.46143" width="1.61538" height="1.61538" transform="rotate(90 4.84619 6.46143)" fill="var(--btn-color)"/>
-    <rect x="17.7693" y="11.3076" width="1.61538" height="1.61538" transform="rotate(90 17.7693 11.3076)" fill="var(--btn-color)"/>
-    <rect x="16.1538" y="11.3076" width="1.61538" height="1.61538" transform="rotate(90 16.1538 11.3076)" fill="var(--btn-color)"/>
-    <rect x="14.5385" y="11.3076" width="1.61538" height="1.61538" transform="rotate(90 14.5385 11.3076)" fill="var(--btn-color)"/>
-    <rect x="12.9231" y="11.3076" width="1.61538" height="1.61538" transform="rotate(90 12.9231 11.3076)" fill="var(--btn-color)"/>
-    <rect x="11.3077" y="11.3076" width="1.61538" height="1.61538" transform="rotate(90 11.3077 11.3076)" fill="var(--btn-color)"/>
-    <rect x="9.69226" y="11.3076" width="1.61538" height="1.61538" transform="rotate(90 9.69226 11.3076)" fill="var(--btn-color)"/>
-    <rect x="8.0769" y="11.3076" width="1.61538" height="1.61538" transform="rotate(90 8.0769 11.3076)" fill="var(--btn-color)"/>
-    <rect x="6.46155" y="11.3076" width="1.61538" height="1.61538" transform="rotate(90 6.46155 11.3076)" fill="var(--btn-color)"/>
-    <rect x="4.84619" y="11.3076" width="1.61538" height="1.61538" transform="rotate(90 4.84619 11.3076)" fill="var(--btn-color)"/>
-    <rect x="17.7693" y="12.9229" width="1.61538" height="1.61538" transform="rotate(90 17.7693 12.9229)" fill="var(--btn-color)"/>
-    <rect x="4.84619" y="12.9229" width="1.61538" height="1.61538" transform="rotate(90 4.84619 12.9229)" fill="var(--btn-color)"/>
-    <rect x="17.7693" y="14.5386" width="1.61538" height="1.61538" transform="rotate(90 17.7693 14.5386)" fill="var(--btn-color)"/>
-    <rect x="4.84619" y="14.5386" width="1.61538" height="1.61538" transform="rotate(90 4.84619 14.5386)" fill="var(--btn-color)"/>
-    <rect x="17.7693" y="16.1538" width="1.61538" height="1.61538" transform="rotate(90 17.7693 16.1538)" fill="var(--btn-color)"/>
-    <rect x="4.84619" y="16.1538" width="1.61538" height="1.61538" transform="rotate(90 4.84619 16.1538)" fill="var(--btn-color)"/>
-    <rect x="4.84619" y="17.769" width="1.61538" height="1.61538" transform="rotate(90 4.84619 17.769)" fill="var(--btn-color)"/>
-    <rect x="17.7693" y="17.769" width="1.61538" height="1.61538" transform="rotate(90 17.7693 17.769)" fill="var(--btn-color)"/>
-    <rect x="19.3846" y="19.3848" width="1.61538" height="1.61538" transform="rotate(90 19.3846 19.3848)" fill="var(--btn-color)"/>
-    <rect x="17.7693" y="19.3848" width="1.61538" height="1.61538" transform="rotate(90 17.7693 19.3848)" fill="var(--btn-color)"/>
-    <rect x="16.1538" y="19.3848" width="1.61538" height="1.61538" transform="rotate(90 16.1538 19.3848)" fill="var(--btn-color)"/>
-    <rect x="14.5385" y="19.3848" width="1.61538" height="1.61538" transform="rotate(90 14.5385 19.3848)" fill="var(--btn-color)"/>
-    <rect x="12.9231" y="19.3848" width="1.61538" height="1.61538" transform="rotate(90 12.9231 19.3848)" fill="var(--btn-color)"/>
-    <rect x="11.3077" y="19.3848" width="1.61538" height="1.61538" transform="rotate(90 11.3077 19.3848)" fill="var(--btn-color)"/>
-    <rect x="9.69226" y="19.3848" width="1.61538" height="1.61538" transform="rotate(90 9.69226 19.3848)" fill="var(--btn-color)"/>
-    <rect x="8.0769" y="19.3848" width="1.61538" height="1.61538" transform="rotate(90 8.0769 19.3848)" fill="var(--btn-color)"/>
-    <rect x="6.46155" y="19.3848" width="1.61538" height="1.61538" transform="rotate(90 6.46155 19.3848)" fill="var(--btn-color)"/>
-    <rect x="4.84619" y="19.3848" width="1.61538" height="1.61538" transform="rotate(90 4.84619 19.3848)" fill="var(--btn-color)"/>
-    <rect x="3.23071" y="19.3848" width="1.61538" height="1.61538" transform="rotate(90 3.23071 19.3848)" fill="var(--btn-color)"/>
-    <rect x="21" y="21" width="1.61538" height="1.61538" transform="rotate(-180 21 21)" fill="var(--btn-color)"/>
-    <rect x="21" y="19.3848" width="1.61538" height="1.61538" transform="rotate(-180 21 19.3848)" fill="var(--btn-color)"/>
-    <rect x="21" y="17.769" width="1.61538" height="1.61538" transform="rotate(-180 21 17.769)" fill="var(--btn-color)"/>
-    <rect x="21" y="16.1538" width="1.61538" height="1.61538" transform="rotate(-180 21 16.1538)" fill="var(--btn-color)"/>
-    <rect x="21" y="14.5386" width="1.61538" height="1.61538" transform="rotate(-180 21 14.5386)" fill="var(--btn-color)"/>
-    <rect x="21" y="12.9229" width="1.61538" height="1.61538" transform="rotate(-180 21 12.9229)" fill="var(--btn-color)"/>
-    <rect x="21" y="11.3076" width="1.61538" height="1.61538" transform="rotate(-180 21 11.3076)" fill="var(--btn-color)"/>
-    <rect x="21" y="9.69238" width="1.61538" height="1.61538" transform="rotate(-180 21 9.69238)" fill="var(--btn-color)"/>
-    <rect x="21" y="8.07715" width="1.61538" height="1.61538" transform="rotate(-180 21 8.07715)" fill="var(--btn-color)"/>
-    <rect x="21" y="6.46143" width="1.61538" height="1.61538" transform="rotate(-180 21 6.46143)" fill="var(--btn-color)"/>
-    <rect x="21" y="4.84619" width="1.61538" height="1.61538" transform="rotate(-180 21 4.84619)" fill="var(--btn-color)"/>
-    </symbol>
-    </svg>
-    
-
-
-    <svg class="save__svg" width="39" height="39" viewBox="0 0 39 39" fill="var(--btn-color)" xmlns="http://www.w3.org/2000/svg">
-        <symbol id="save-2" fill="var(--btn-color)">
-            <rect x="0.5" y="0.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="3.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="6.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="9.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="12.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="15.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="18.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="21.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="24.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="27.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="30.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="33.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="0.5" y="36.5" width="3" height="3" fill="var(--btn-color)" />
-            <rect x="33.5" y="0.5" width="3" height="3" transform="rotate(90 33.5 0.5)" fill="var(--btn-color)" />
-            <rect x="30.5" y="0.5" width="3" height="3" transform="rotate(90 30.5 0.5)" fill="var(--btn-color)" />
-            <rect x="27.5" y="0.5" width="3" height="3" transform="rotate(90 27.5 0.5)" fill="var(--btn-color)" />
-            <rect x="24.5" y="0.5" width="3" height="3" transform="rotate(90 24.5 0.5)" fill="var(--btn-color)" />
-            <rect x="21.5" y="0.5" width="3" height="3" transform="rotate(90 21.5 0.5)" fill="var(--btn-color)" />
-            <rect x="18.5" y="0.5" width="3" height="3" transform="rotate(90 18.5 0.5)" fill="var(--btn-color)" />
-            <rect x="15.5" y="0.5" width="3" height="3" transform="rotate(90 15.5 0.5)" fill="var(--btn-color)" />
-            <rect x="12.5" y="0.5" width="3" height="3" transform="rotate(90 12.5 0.5)" fill="var(--btn-color)" />
-            <rect x="9.5" y="0.5" width="3" height="3" transform="rotate(90 9.5 0.5)" fill="var(--btn-color)" />
-            <rect x="6.5" y="0.5" width="3" height="3" transform="rotate(90 6.5 0.5)" fill="var(--btn-color)" />
-            <rect x="36.5" y="3.5" width="3" height="3" transform="rotate(90 36.5 3.5)" fill="var(--btn-color)" />
-            <rect x="9.5" y="6.5" width="3" height="3" transform="rotate(90 9.5 6.5)" fill="var(--btn-color)" />
-            <rect x="9.5" y="3.5" width="3" height="3" transform="rotate(90 9.5 3.5)" fill="var(--btn-color)" />
-            <rect x="9.5" y="9.5" width="3" height="3" transform="rotate(90 9.5 9.5)" fill="var(--btn-color)" />
-            <rect x="30.5" y="6.5" width="3" height="3" transform="rotate(90 30.5 6.5)" fill="var(--btn-color)" />
-            <rect x="30.5" y="3.5" width="3" height="3" transform="rotate(90 30.5 3.5)" fill="var(--btn-color)" />
-            <rect x="30.5" y="9.5" width="3" height="3" transform="rotate(90 30.5 9.5)" fill="var(--btn-color)" />
-            <rect x="24.5" y="6.5" width="3" height="3" transform="rotate(90 24.5 6.5)" fill="var(--btn-color)" />
-            <rect x="24.5" y="3.5" width="3" height="3" transform="rotate(90 24.5 3.5)" fill="var(--btn-color)" />
-            <rect x="24.5" y="9.5" width="3" height="3" transform="rotate(90 24.5 9.5)" fill="var(--btn-color)" />
-            <rect x="30.5" y="12.5" width="3" height="3" transform="rotate(90 30.5 12.5)" fill="var(--btn-color)" />
-            <rect x="27.5" y="12.5" width="3" height="3" transform="rotate(90 27.5 12.5)" fill="var(--btn-color)" />
-            <rect x="24.5" y="12.5" width="3" height="3" transform="rotate(90 24.5 12.5)" fill="var(--btn-color)" />
-            <rect x="21.5" y="12.5" width="3" height="3" transform="rotate(90 21.5 12.5)" fill="var(--btn-color)" />
-            <rect x="18.5" y="12.5" width="3" height="3" transform="rotate(90 18.5 12.5)" fill="var(--btn-color)" />
-            <rect x="15.5" y="12.5" width="3" height="3" transform="rotate(90 15.5 12.5)" fill="var(--btn-color)" />
-            <rect x="12.5" y="12.5" width="3" height="3" transform="rotate(90 12.5 12.5)" fill="var(--btn-color)" />
-            <rect x="9.5" y="12.5" width="3" height="3" transform="rotate(90 9.5 12.5)" fill="var(--btn-color)" />
-            <rect x="33.5" y="21.5" width="3" height="3" transform="rotate(90 33.5 21.5)" fill="var(--btn-color)" />
-            <rect x="30.5" y="21.5" width="3" height="3" transform="rotate(90 30.5 21.5)" fill="var(--btn-color)" />
-            <rect x="27.5" y="21.5" width="3" height="3" transform="rotate(90 27.5 21.5)" fill="var(--btn-color)" />
-            <rect x="24.5" y="21.5" width="3" height="3" transform="rotate(90 24.5 21.5)" fill="var(--btn-color)" />
-            <rect x="21.5" y="21.5" width="3" height="3" transform="rotate(90 21.5 21.5)" fill="var(--btn-color)" />
-            <rect x="18.5" y="21.5" width="3" height="3" transform="rotate(90 18.5 21.5)" fill="var(--btn-color)" />
-            <rect x="15.5" y="21.5" width="3" height="3" transform="rotate(90 15.5 21.5)" fill="var(--btn-color)" />
-            <rect x="12.5" y="21.5" width="3" height="3" transform="rotate(90 12.5 21.5)" fill="var(--btn-color)" />
-            <rect x="9.5" y="21.5" width="3" height="3" transform="rotate(90 9.5 21.5)" fill="var(--btn-color)" />
-            <rect x="33.5" y="24.5" width="3" height="3" transform="rotate(90 33.5 24.5)" fill="var(--btn-color)" />
-            <rect x="9.5" y="24.5" width="3" height="3" transform="rotate(90 9.5 24.5)" fill="var(--btn-color)" />
-            <rect x="33.5" y="27.5" width="3" height="3" transform="rotate(90 33.5 27.5)" fill="var(--btn-color)" />
-            <rect x="9.5" y="27.5" width="3" height="3" transform="rotate(90 9.5 27.5)" fill="var(--btn-color)" />
-            <rect x="33.5" y="30.5" width="3" height="3" transform="rotate(90 33.5 30.5)" fill="var(--btn-color)" />
-            <rect x="9.5" y="30.5" width="3" height="3" transform="rotate(90 9.5 30.5)" fill="var(--btn-color)" />
-            <rect x="9.5" y="33.5" width="3" height="3" transform="rotate(90 9.5 33.5)" fill="var(--btn-color)" />
-            <rect x="33.5" y="33.5" width="3" height="3" transform="rotate(90 33.5 33.5)" fill="var(--btn-color)" />
-            <rect x="36.5" y="36.5" width="3" height="3" transform="rotate(90 36.5 36.5)" fill="var(--btn-color)" />
-            <rect x="33.5" y="36.5" width="3" height="3" transform="rotate(90 33.5 36.5)" fill="var(--btn-color)" />
-            <rect x="30.5" y="36.5" width="3" height="3" transform="rotate(90 30.5 36.5)" fill="var(--btn-color)" />
-            <rect x="27.5" y="36.5" width="3" height="3" transform="rotate(90 27.5 36.5)" fill="var(--btn-color)" />
-            <rect x="24.5" y="36.5" width="3" height="3" transform="rotate(90 24.5 36.5)" fill="var(--btn-color)" />
-            <rect x="21.5" y="36.5" width="3" height="3" transform="rotate(90 21.5 36.5)" fill="var(--btn-color)" />
-            <rect x="18.5" y="36.5" width="3" height="3" transform="rotate(90 18.5 36.5)" fill="var(--btn-color)" />
-            <rect x="15.5" y="36.5" width="3" height="3" transform="rotate(90 15.5 36.5)" fill="var(--btn-color)" />
-            <rect x="12.5" y="36.5" width="3" height="3" transform="rotate(90 12.5 36.5)" fill="var(--btn-color)" />
-            <rect x="9.5" y="36.5" width="3" height="3" transform="rotate(90 9.5 36.5)" fill="var(--btn-color)" />
-            <rect x="6.5" y="36.5" width="3" height="3" transform="rotate(90 6.5 36.5)" fill="var(--btn-color)" />
-            <rect x="39.5" y="39.5" width="3" height="3" transform="rotate(-180 39.5 39.5)" fill="var(--btn-color)" />
-            <rect x="39.5" y="36.5" width="3" height="3" transform="rotate(-180 39.5 36.5)" fill="var(--btn-color)" />
-            <rect x="39.5" y="33.5" width="3" height="3" transform="rotate(-180 39.5 33.5)" fill="var(--btn-color)" />
-            <rect x="39.5" y="30.5" width="3" height="3" transform="rotate(-180 39.5 30.5)" fill="var(--btn-color)" />
-            <rect x="39.5" y="27.5" width="3" height="3" transform="rotate(-180 39.5 27.5)" fill="var(--btn-color)" />
-            <rect x="39.5" y="24.5" width="3" height="3" transform="rotate(-180 39.5 24.5)" fill="var(--btn-color)" />
-            <rect x="39.5" y="21.5" width="3" height="3" transform="rotate(-180 39.5 21.5)" fill="var(--btn-color)" />
-            <rect x="39.5" y="18.5" width="3" height="3" transform="rotate(-180 39.5 18.5)" fill="var(--btn-color)" />
-            <rect x="39.5" y="15.5" width="3" height="3" transform="rotate(-180 39.5 15.5)" fill="var(--btn-color)" />
-            <rect x="39.5" y="12.5" width="3" height="3" transform="rotate(-180 39.5 12.5)" fill="var(--btn-color)" />
-            <rect x="39.5" y="9.5" width="3" height="3" transform="rotate(-180 39.5 9.5)" fill="var(--btn-color)" />
-            </symbol>
-    </svg>
-    
-
-
-    <svg class="save__svg save__svg-mobile" width="29" height="28" viewBox="0 0 29 28" fill="var(--btn-color)" xmlns="http://www.w3.org/2000/svg">
-        <symbol id="save-mob" fill="var(--btn-color)">
-            <rect x="0.5" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="2.15405" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="4.30762" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="6.46167" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="8.61523" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="10.7693" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="12.9231" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="15.0769" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="17.2307" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="19.3848" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="21.5383" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="23.6924" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="0.5" y="25.8459" width="2.15385" height="2.15385" fill="(--btn-color)" />
-            <rect x="24.1927" width="2.15385" height="2.15385" transform="rotate(90 24.1927 0)" fill="(--btn-color)" />
-            <rect x="22.0391" width="2.15385" height="2.15385" transform="rotate(90 22.0391 0)" fill="(--btn-color)" />
-            <rect x="19.884" width="2.15385" height="2.15385" transform="rotate(90 19.884 0)" fill="(--btn-color)" />
-            <rect x="17.7305" width="2.15385" height="2.15385" transform="rotate(90 17.7305 0)" fill="(--btn-color)" />
-            <rect x="15.5769" width="2.15385" height="2.15385" transform="rotate(90 15.5769 0)" fill="(--btn-color)" />
-            <rect x="13.4231" width="2.15385" height="2.15385" transform="rotate(90 13.4231 0)" fill="(--btn-color)" />
-            <rect x="11.2695" width="2.15385" height="2.15385" transform="rotate(90 11.2695 0)" fill="(--btn-color)" />
-            <rect x="9.11597" width="2.15385" height="2.15385" transform="rotate(90 9.11597 0)" fill="(--btn-color)" />
-            <rect x="6.96094" width="2.15385" height="2.15385" transform="rotate(90 6.96094 0)" fill="(--btn-color)" />
-            <rect x="4.80737" width="2.15385" height="2.15385" transform="rotate(90 4.80737 0)" fill="(--btn-color)" />
-            <rect x="26.3463" y="2.15405" width="2.15385" height="2.15385" transform="rotate(90 26.3463 2.15405)" fill="(--btn-color)" />
-            <rect x="6.96094" y="4.30762" width="2.15385" height="2.15385" transform="rotate(90 6.96094 4.30762)" fill="(--btn-color)" />
-            <rect x="6.96094" y="2.15405" width="2.15385" height="2.15385" transform="rotate(90 6.96094 2.15405)" fill="(--btn-color)" />
-            <rect x="6.96094" y="6.46167" width="2.15385" height="2.15385" transform="rotate(90 6.96094 6.46167)" fill="(--btn-color)" />
-            <rect x="22.0391" y="4.30762" width="2.15385" height="2.15385" transform="rotate(90 22.0391 4.30762)" fill="(--btn-color)" />
-            <rect x="22.0391" y="2.15405" width="2.15385" height="2.15385" transform="rotate(90 22.0391 2.15405)" fill="(--btn-color)" />
-            <rect x="22.0391" y="6.46167" width="2.15385" height="2.15385" transform="rotate(90 22.0391 6.46167)" fill="(--btn-color)" />
-            <rect x="17.7305" y="4.30762" width="2.15385" height="2.15385" transform="rotate(90 17.7305 4.30762)" fill="(--btn-color)" />
-            <rect x="17.7305" y="2.15405" width="2.15385" height="2.15385" transform="rotate(90 17.7305 2.15405)" fill="(--btn-color)" />
-            <rect x="17.7305" y="6.46167" width="2.15385" height="2.15385" transform="rotate(90 17.7305 6.46167)" fill="(--btn-color)" />
-            <rect x="22.0391" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 22.0391 8.61523)" fill="(--btn-color)" />
-            <rect x="19.884" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 19.884 8.61523)" fill="(--btn-color)" />
-            <rect x="17.7305" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 17.7305 8.61523)" fill="(--btn-color)" />
-            <rect x="15.5769" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 15.5769 8.61523)" fill="(--btn-color)" />
-            <rect x="13.4231" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 13.4231 8.61523)" fill="(--btn-color)" />
-            <rect x="11.2695" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 11.2695 8.61523)" fill="(--btn-color)" />
-            <rect x="9.11597" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 9.11597 8.61523)" fill="(--btn-color)" />
-            <rect x="6.96094" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 6.96094 8.61523)" fill="(--btn-color)" />
-            <rect x="24.1927" y="15.0769" width="2.15385" height="2.15385" transform="rotate(90 24.1927 15.0769)" fill="(--btn-color)" />
-            <rect x="22.0391" y="15.0769" width="2.15385" height="2.15385" transform="rotate(90 22.0391 15.0769)" fill="(--btn-color)" />
-            <rect x="19.884" y="15.0769" width="2.15385" height="2.15385" transform="rotate(90 19.884 15.0769)" fill="(--btn-color)" />
-            <rect x="17.7305" y="15.0769" width="2.15385" height="2.15385" transform="rotate(90 17.7305 15.0769)" fill="(--btn-color)" />
-            <rect x="15.5769" y="15.0769" width="2.15385" height="2.15385" transform="rotate(90 15.5769 15.0769)" fill="(--btn-color)" />
-            <rect x="13.4231" y="15.0769" width="2.15385" height="2.15385" transform="rotate(90 13.4231 15.0769)" fill="(--btn-color)" />
-            <rect x="11.2695" y="15.0769" width="2.15385" height="2.15385" transform="rotate(90 11.2695 15.0769)" fill="(--btn-color)" />
-            <rect x="9.11597" y="15.0769" width="2.15385" height="2.15385" transform="rotate(90 9.11597 15.0769)" fill="(--btn-color)" />
-            <rect x="6.96094" y="15.0769" width="2.15385" height="2.15385" transform="rotate(90 6.96094 15.0769)" fill="(--btn-color)" />
-            <rect x="24.1927" y="17.2307" width="2.15385" height="2.15385" transform="rotate(90 24.1927 17.2307)" fill="(--btn-color)" />
-            <rect x="6.96094" y="17.2307" width="2.15385" height="2.15385" transform="rotate(90 6.96094 17.2307)" fill="(--btn-color)" />
-            <rect x="24.1927" y="19.3848" width="2.15385" height="2.15385" transform="rotate(90 24.1927 19.3848)" fill="(--btn-color)" />
-            <rect x="6.96094" y="19.3848" width="2.15385" height="2.15385" transform="rotate(90 6.96094 19.3848)" fill="(--btn-color)" />
-            <rect x="24.1927" y="21.5383" width="2.15385" height="2.15385" transform="rotate(90 24.1927 21.5383)" fill="(--btn-color)" />
-            <rect x="6.96094" y="21.5383" width="2.15385" height="2.15385" transform="rotate(90 6.96094 21.5383)" fill="(--btn-color)" />
-            <rect x="6.96094" y="23.6924" width="2.15385" height="2.15385" transform="rotate(90 6.96094 23.6924)" fill="(--btn-color)" />
-            <rect x="24.1927" y="23.6924" width="2.15385" height="2.15385" transform="rotate(90 24.1927 23.6924)" fill="(--btn-color)" />
-            <rect x="26.3463" y="25.8459" width="2.15385" height="2.15385" transform="rotate(90 26.3463 25.8459)" fill="(--btn-color)" />
-            <rect x="24.1927" y="25.8459" width="2.15385" height="2.15385" transform="rotate(90 24.1927 25.8459)" fill="(--btn-color)" />
-            <rect x="22.0391" y="25.8459" width="2.15385" height="2.15385" transform="rotate(90 22.0391 25.8459)" fill="(--btn-color)" />
-            <rect x="19.884" y="25.8459" width="2.15385" height="2.15385" transform="rotate(90 19.884 25.8459)" fill="(--btn-color)" />
-            <rect x="17.7305" y="25.8459" width="2.15385" height="2.15385" transform="rotate(90 17.7305 25.8459)" fill="(--btn-color)" />
-            <rect x="15.5769" y="25.8459" width="2.15385" height="2.15385" transform="rotate(90 15.5769 25.8459)" fill="(--btn-color)" />
-            <rect x="13.4231" y="25.8459" width="2.15385" height="2.15385" transform="rotate(90 13.4231 25.8459)" fill="(--btn-color)" />
-            <rect x="11.2695" y="25.8459" width="2.15385" height="2.15385" transform="rotate(90 11.2695 25.8459)" fill="(--btn-color)" />
-            <rect x="9.11597" y="25.8459" width="2.15385" height="2.15385" transform="rotate(90 9.11597 25.8459)" fill="(--btn-color)" />
-            <rect x="6.96094" y="25.8459" width="2.15385" height="2.15385" transform="rotate(90 6.96094 25.8459)" fill="(--btn-color)" />
-            <rect x="4.80737" y="25.8459" width="2.15385" height="2.15385" transform="rotate(90 4.80737 25.8459)" fill="(--btn-color)" />
-            <rect x="28.5" y="28" width="2.15385" height="2.15385" transform="rotate(-180 28.5 28)" fill="(--btn-color)" />
-            <rect x="28.5" y="25.8459" width="2.15385" height="2.15385" transform="rotate(-180 28.5 25.8459)" fill="(--btn-color)" />
-            <rect x="28.5" y="23.6924" width="2.15385" height="2.15385" transform="rotate(-180 28.5 23.6924)" fill="(--btn-color)" />
-            <rect x="28.5" y="21.5383" width="2.15385" height="2.15385" transform="rotate(-180 28.5 21.5383)" fill="(--btn-color)" />
-            <rect x="28.5" y="19.3848" width="2.15385" height="2.15385" transform="rotate(-180 28.5 19.3848)" fill="(--btn-color)" />
-            <rect x="28.5" y="17.2307" width="2.15385" height="2.15385" transform="rotate(-180 28.5 17.2307)" fill="(--btn-color)" />
-            <rect x="28.5" y="15.0769" width="2.15385" height="2.15385" transform="rotate(-180 28.5 15.0769)" fill="(--btn-color)" />
-            <rect x="28.5" y="12.9231" width="2.15385" height="2.15385" transform="rotate(-180 28.5 12.9231)" fill="(--btn-color)" />
-            <rect x="28.5" y="10.7693" width="2.15385" height="2.15385" transform="rotate(-180 28.5 10.7693)" fill="(--btn-color)" />
-            <rect x="28.5" y="8.61523" width="2.15385" height="2.15385" transform="rotate(-180 28.5 8.61523)" fill="(--btn-color)" />
-            <rect x="28.5" y="6.46167" width="2.15385" height="2.15385" transform="rotate(-180 28.5 6.46167)" fill="(--btn-color)" />
-            </symbol>
-    </svg>

@@ -14,16 +14,14 @@
 */
 
 
-@keyframes move {
+@keyframes moving {
     0% {
       left: -15px;
     }
-  
     100% {
       left: -11px;
     }
   }
-
 
 @keyframes scale {
     0% {
@@ -34,8 +32,6 @@
       transform: scale(1.5);
     }
   }
-
-
 
   @keyframes spark {
     0% {
