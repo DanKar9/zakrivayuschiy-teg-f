@@ -7,8 +7,8 @@
 :root.theme-dark {
     --background-color: #000000;
     --accent-color:rgb(0, 204, 20);
-    --font-title-weight:800;
-    --font-text-weight:400;
+    --font-title-weight:785;
+    --font-text-weight:465;
     color-scheme: dark;
     --background-gradient-right:90deg, #000 0px 2px ,transparent 2px 4px;
   --background-gradient-bottom:180deg,#000 0px 2px ,transparent 2px 4px ;
@@ -34,8 +34,8 @@
   :root {
     --background-color: #000000;
     --accent-color:rgb(0, 204, 20);
-    --font-title-weight:800;
-    --font-text-weight:400;
+    --font-title-weight:785;
+    --font-text-weight:465;
     color-scheme: dark;
     --background-gradient-right:90deg, #000 0px 2px ,transparent 2px 4px;
   --background-gradient-bottom:180deg,#000 0px 2px ,transparent 2px 4px ;
